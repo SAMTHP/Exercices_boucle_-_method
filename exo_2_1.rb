@@ -10,7 +10,7 @@ def pyramide(etage)
 	while etage <= 25 && etage > 0
 
 		puts bloc
-		bloc = bloc+"#"
+		bloc += "#"
 		etage = etage - 1
 
 	end
