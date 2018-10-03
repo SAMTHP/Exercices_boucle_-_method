@@ -1,15 +1,19 @@
 # Exercice 'Pyramide de Mario' :
 puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ?"
-etage = gets.chomp.to_i
-puts "Voici la pyramide :"
 
-bloc = "#"
+def pyramide(etage)
+	#etage = gets.chomp.to_i
+	puts "Voici la pyramide :"
 
-while etage <= 25 && etage > 0
+	bloc = "#"
 
-	puts bloc
-	
-	bloc = bloc+"#"
-	etage = etage - 1
+	while etage <= 25 && etage > 0
 
+		puts bloc
+		bloc = bloc+"#"
+		etage = etage - 1
+
+	end
 end
+
+pyramide(gets.chomp.to_i)
