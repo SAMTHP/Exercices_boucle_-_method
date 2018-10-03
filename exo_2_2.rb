@@ -1,0 +1,1 @@
+# Exercice 'Pyramide de GIzeh' :
