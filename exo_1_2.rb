@@ -1,3 +1,4 @@
+# Exercice coucou toi :
 puts "Comment vous appelez vous ?"
 
 def coucou_toi(first_name)
