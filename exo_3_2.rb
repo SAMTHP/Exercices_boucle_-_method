@@ -32,4 +32,9 @@ def perform
 
 end
 
-perform
+def connect(password)
+	puts "Tu es en ligne"
+end
+	
+connect(perform)
+
